@@ -1,0 +1,240 @@
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(73, 4, 185);
+    background: url("/styles/geometric-1732847.jpg");
+    background-size: cover;
+}
+nav{
+    position: sticky;
+}
+#nav_bar{
+    border-bottom: rgb(0, 183, 255) 3px solid;
+    font-size: large;
+    background-color: gray;
+    position: sticky;
+}
+#activity :hover{
+    color: orange;
+    border-top: orange 1px solid;
+}
+#type_effect{
+    font-size:xx-large;
+    color: orange;
+    padding: 0;
+    margin: 180px 100px;
+}
+#myimage{
+    border-radius: 20px;
+    margin-left: 980px;
+    margin-top: 20px;
+}
+.one{
+    margin-left: 980px;
+    color: azure;
+    font-size: larger;
+    height: 200px;
+    width: 210px;
+}
+.two{
+    font-size: larger;
+    color: turquoise;
+    width: 183px;
+    margin-left: 10px;
+}
+.abt-GBT{
+    font-size: x-large;
+    width: 850px;
+    color: skyblue;
+    margin-left: 10px;
+}
+#services{
+    margin-top: 20px;
+    width: 650px;
+    font-size: x-large;
+    /*color: rgb(132, 71, 212);*/
+    color :aliceblue;
+    margin-left: 10px;
+    /*border: black 2px solid;*/
+}
+#MLAI{
+    width: 650px;
+    font-size: x-large;
+    /*color: rgb(132, 71, 212);*/
+    color :aliceblue;
+    margin-left: 10px;
+}
+#hccp1{
+    border-radius: 20px /*solid rgb(134, 29, 231)*/;
+    float: right;
+    margin-top: 150px;
+    margin-right: 30px;
+    background-color: rgb(93, 44, 226);
+}
+#hccp2{
+    border-radius: 20px /*solid black*/;
+    float:right;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    background-color: rgb(190, 15, 103);
+}
+#hccp3{
+    border-radius: 20px /*solid black*/;
+    float: right;
+    margin-top: -120px;
+    margin-right: 60px;
+    background-color: rgb(25, 144, 190);
+}
+#hccp4{
+    border-radius: 20px /*solid black*/;
+    float: right;
+    margin-top: 250px;
+    margin-right: -60px;
+    background-color: rgb(102, 25, 190);
+}
+#form{
+    color: aliceblue;
+    margin-top: -120px;
+    margin-left: 20px;
+}
+#particles-js{
+    position: sticky;
+}
+#student{
+    font-size: x-large;
+    color: rgb(216, 167, 33);
+    margin-left: 10px;
+}
+.A4{
+    color: aliceblue;
+    margin: 20px;
+
+}
+
+#ssp1{
+    margin-left: 400px;
+    margin-bottom: 90px;
+    background-color: rgb(95, 81, 128);
+    border-radius: 20px ;
+}
+#ssp2{
+    margin-left: 300px;
+    margin-bottom: 60px;
+    background-color: rgb(96, 168, 202);
+    border-radius: 20px ;
+}
+#ssp3{
+    margin-left: 280px;
+    margin-bottom: 80px;
+    background-color: rgb(92, 160, 120);
+    border-radius: 20px ;
+}
+/*********************---------------STOLEN CODES-----------************************/
+
+#footer .twitter {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+  }
+  #footer .facebook {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+  }
+  #footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+  }
+  #footer .twitter:hover {
+    background-position: 0 -56px;
+  }
+  #footer .facebook:hover {
+    background-position: -233px -56px;
+  }
+  
+  #footer .linkedin:hover {
+    background-position: -78px -56px;
+  }
+  #bggf{
+      border-top: rgb(0, 183, 255) 3px solid;
+      background-color: rgb(34, 15, 15);
+  }
+
+
+
+
+/***************-------------SMALL DEVICES-------------*****************/
+@media screen and (max-width: 700px){
+    body{
+        font-family: Arial, Helvetica, sans-serif ;
+        background-color: rgb(73, 4, 185);
+        background: url("/styles/geometric-1732847.jpg");
+        background-size: cover;
+    }
+    #nav_bar{
+        border-bottom: orange 3px solid;
+        font-size: large;
+    }
+    #activity :hover{
+        color: orange;
+        border-top: orange 1px solid;
+    }
+    #services{
+        font-size: 18px;
+        width: 200px;
+    }
+    #MLAI{
+        font-size: 18px;
+        width: 200px;
+    }
+    #hccp1{
+        margin-top: -170px;
+        width: 80px;
+        height: 80px;
+    }
+    #hccp2{
+        margin-top: 90px;
+        width: 80px;
+        height: 80px;
+    }
+    #hccp3{
+        float: right;
+        margin-top: -20px;
+        margin-right: -70px;
+        width: 80px;
+        height: 80px;
+    }
+    #hccp4{
+        float: right;
+        margin-top: 230px;
+        margin-right: -70px;
+        width: 80px;
+        height: 80px;
+    }
+    .abt-GBT{
+        font-size: 18px;
+        width: 200px;
+        margin: 10px 10px;
+    }
+    #myimage{
+        margin: 30px 220px;
+    }
+    .one{
+        font-size: 15px;
+        margin: 10px 130px;
+    }
+    .A4{
+        color: aliceblue;
+    }
+
+}
